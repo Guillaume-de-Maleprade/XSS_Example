@@ -9,10 +9,13 @@
 <body>
     <div class="container">
         <form action="form.php" method="get">
-            <input type="text" name="username" id="username">
-            <input type="password" name="pass" id="pass">
+            <label for="username">Utilisateur</label>
+            <input type="text" name="username" id="username"><br>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="pass"><br>
+            <input type="submit" value="Valider">
         </form>
     </div>
-    <script src="{{ javascript.js }}">{{ javascript }}</script>
+    <script src="{{javascript_js}}">{{javascript}}</script>
 </body>
 </html>
